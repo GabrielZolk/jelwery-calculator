@@ -1,0 +1,37 @@
+{
+  "name": "Comissões de Joias",
+  "short_name": "Joias",
+  "description": "Calculadora de comissões para vendas de joias",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#6366f1",
+  "background_color": "#f8f9fa",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "monochrome"
+    }
+  ],
+  "categories": ["business", "productivity", "finance"],
+  "prefer_related_applications": false,
+  "offline_enabled": true,
+  "offline_page": "/",
+  "cache_strategy": "NetworkFirst"
+}
