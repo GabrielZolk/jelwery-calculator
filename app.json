@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Comissões de Joias",
+    "slug": "jewelry-commission-calculator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#f8f9fa"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zolk.jewelrycommissioncalculator",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#f8f9fa"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "/favicon.png",
+      "name": "Comissões de Joias",
+      "shortName": "Joias",
+      "lang": "pt-BR",
+      "scope": "/",
+      "themeColor": "#6366f1",
+      "description": "Calculadora de comissões para vendas de joias",
+      "dir": "auto",
+      "display": "standalone",
+      "orientation": "portrait",
+      "startUrl": "/",
+      "preferRelatedApplications": false,
+      "dangerouslyAllowInsecureHttpInProduction": false,
+      "offline": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "105b7488-c52c-471e-8ee0-b50468080606"
+      }
+    }
+  }
+}
