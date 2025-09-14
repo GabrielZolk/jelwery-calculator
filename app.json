@@ -26,21 +26,8 @@
     },
     "web": {
       "bundler": "metro",
-      "favicon": "./public/favicon.png",
       "name": "Comissões de Joias",
-      "shortName": "Joias",
-      "lang": "pt-BR",
-      "scope": "/",
-      "themeColor": "#6366f1",
-      "description": "Calculadora de comissões para vendas de joias",
-      "dir": "auto",
-      "display": "standalone",
-      "orientation": "portrait",
-      "startUrl": "/",
-      "preferRelatedApplications": false,
-      "dangerouslyAllowInsecureHttpInProduction": false,
-      "offline": true,
-      "manifest": "./public/manifest.json"
+      "shortName": "Joias"
     },
     "extra": {
       "eas": {
