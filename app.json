@@ -26,7 +26,7 @@
     },
     "web": {
       "bundler": "metro",
-      "favicon": "/favicon.png",
+      "favicon": "./public/favicon.png",
       "name": "Comissões de Joias",
       "shortName": "Joias",
       "lang": "pt-BR",
@@ -39,7 +39,8 @@
       "startUrl": "/",
       "preferRelatedApplications": false,
       "dangerouslyAllowInsecureHttpInProduction": false,
-      "offline": true
+      "offline": true,
+      "manifest": "./public/manifest.json"
     },
     "extra": {
       "eas": {
